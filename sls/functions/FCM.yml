@@ -1,0 +1,9 @@
+firebase-admin-notif:
+  handler: src/lambda/FCM.handler
+  events:
+    - http:
+        path: firebase-admin-notif
+        method: POST
+        cors: true
+        schema:
+          application/json: ${file(assets/schema/post-message.json)}

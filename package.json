@@ -1,0 +1,28 @@
+{
+  "name": "demo-fcm-google-sdk",
+  "version": "1.0.0",
+  "description": "FCM implementation using google-admin",
+  "repository": {
+    "url": "https://github.com"
+  },
+  "main": "index.js",
+  "scripts": {
+    "deploy": "sls deploy -v",
+    "remove": "sls remove -v"
+  },
+  "author": "M Sanjay Sharma",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^9.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "aws-sdk": "^2.781.0",
+    "babel-loader": "^8.1.0",
+    "serverless-bundle": "^3.2.1",
+    "serverless-pseudo-parameters": "^2.5.0",
+    "serverless-webpack": "^5.3.5",
+    "webpack": "^5.3.1"
+  }
+}
