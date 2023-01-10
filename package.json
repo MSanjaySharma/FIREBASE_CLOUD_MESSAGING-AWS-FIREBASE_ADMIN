@@ -13,7 +13,7 @@
   "author": "M Sanjay Sharma",
   "license": "MIT",
   "dependencies": {
-    "firebase-admin": "^9.3.0"
+    "firebase-admin": "^11.4.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
